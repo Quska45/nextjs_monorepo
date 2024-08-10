@@ -1,4 +1,21 @@
-import createMDX from "@next/mdx";
+import fs from "node:fs";
+import nextMDX from "@next/mdx";
+import rehypePrettyCode from "rehype-pretty-code";
+import moonlightTheme from "./public/moonlight-ii.json" assert { type: "json" };
+
+/** @type {import('rehype-pretty-code').Options} */
+const options = {
+  // See Options section below.
+  theme: moonlightTheme,
+};
+
+const withMDX = nextMDX({
+  extension: /\.mdx?$/,
+  options: {
+    remarkPlugins: [],
+    rehypePlugins: [[rehypePrettyCode, options]],
+  },
+});
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -7,9 +24,4 @@ const nextConfig = {
   // Optionally, add any other Next.js config below
 };
 
-const withMDX = createMDX({
-  // Add markdown plugins here, as desired
-});
-
-// Merge MDX config with Next.js config
 export default withMDX(nextConfig);

@@ -27,7 +27,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/guide/nextjs/monorepo/mdx-page.mdx",
-    "app/guide/nextjs/page.mdx"
+    "app/guide/nextjs/setting/page.mdx"
   ],
   "exclude": ["node_modules"]
 }
