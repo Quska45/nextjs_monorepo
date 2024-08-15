@@ -1,0 +1,15 @@
+```ansi title="tsconfig.json"
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "jsx": "preserve",
+    "paths": {
+      "@ui/*": ["packages/ui/*"]
+    }
+  }
+}
+```
