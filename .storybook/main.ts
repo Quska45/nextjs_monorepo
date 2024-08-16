@@ -1,3 +1,7 @@
+/**
+ * @type/node 패키지가 없으면 찾을 수 없다는 에러가 발생됨.
+ * 실행이 안되는 것은 아니고 vscode에서 타입을 찾지 못하는 것으로 생각됨
+ */
 import path, { join, dirname } from "path";
 
 /**
@@ -5,6 +9,7 @@ import path, { join, dirname } from "path";
  * It is needed in projects that use Yarn PnP or are set up within a monorepo.
  */
 function getAbsolutePath(value: string): any {
+  // require.resolve에서도 @type/node 패키지가 필요함.
   return dirname(require.resolve(join(value, "package.json")));
 }
 
