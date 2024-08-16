@@ -19,7 +19,7 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@guide": ["/apps/guide/app/guide/*"]
+      "@guide/*": ["./app/guide/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

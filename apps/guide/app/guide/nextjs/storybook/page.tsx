@@ -1,6 +1,6 @@
-import 패키지설치 from "@/app/guide/nextjs/storybook/패키지설치.mdx";
-import Main파일커스텀 from "@/app/guide/nextjs/storybook/main파일커스텀.mdx";
-import Tsconfig설정추가 from "@/app/guide/nextjs/storybook/tsconfig설정추가.mdx";
+import 패키지설치 from "@guide/nextjs/storybook/패키지설치.mdx";
+import Main파일커스텀 from "@guide/nextjs/storybook/main파일커스텀.mdx";
+import Tsconfig설정추가 from "@guide/nextjs/storybook/tsconfig설정추가.mdx";
 
 export default function Page() {
   return (

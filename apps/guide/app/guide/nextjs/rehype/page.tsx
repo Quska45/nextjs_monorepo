@@ -1,6 +1,6 @@
-import 설치 from "@/app/guide/nextjs/rehype/설치.mdx";
-import NextConfig등록 from "@/app/guide/nextjs/rehype/nextConfig등록.mdx";
-import 스타일추가 from "@/app/guide/nextjs/rehype/스타일추가.mdx";
+import 설치 from "@guide/nextjs/rehype/설치.mdx";
+import NextConfig등록 from "@guide/nextjs/rehype/nextConfig등록.mdx";
+import 스타일추가 from "@guide/nextjs/rehype/스타일추가.mdx";
 
 export default function Page() {
   return (

@@ -1,5 +1,5 @@
-import 프로젝트생성 from "@/app/guide/nextjs/setting/프로젝트생성.mdx";
-import 프로젝트생성옵션 from "@/app/guide/nextjs/setting/프로젝트생성옵션.mdx";
+import 프로젝트생성 from "@guide/nextjs/setting/프로젝트생성.mdx";
+import 프로젝트생성옵션 from "@guide/nextjs/setting/프로젝트생성옵션.mdx";
 
 export default function Page() {
   return (

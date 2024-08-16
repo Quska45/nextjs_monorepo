@@ -1,8 +1,8 @@
-import 프로젝트파일이동 from "@/app/guide/nextjs/monorepo/프로젝트파일이동.mdx";
-import 터보레포패키지다운 from "@/app/guide/nextjs/monorepo/터보레포패키지다운.mdx";
-import Turbo제이슨추가 from "@/app/guide/nextjs/monorepo/turbo제이슨추가.mdx";
-import Packgejson작성 from "@/app/guide/nextjs/monorepo/packgejson작성.mdx";
-import 모노레포실행 from "@/app/guide/nextjs/monorepo/모노레포실행.mdx";
+import 프로젝트파일이동 from "@guide/nextjs/monorepo/프로젝트파일이동.mdx";
+import 터보레포패키지다운 from "@guide/nextjs/monorepo/터보레포패키지다운.mdx";
+import Turbo제이슨추가 from "@guide/nextjs/monorepo/turbo제이슨추가.mdx";
+import Packgejson작성 from "@guide/nextjs/monorepo/packgejson작성.mdx";
+import 모노레포실행 from "@guide/nextjs/monorepo/모노레포실행.mdx";
 
 export default function Page() {
   // ERROR  run failed: Could not find the following tasks in project: dev

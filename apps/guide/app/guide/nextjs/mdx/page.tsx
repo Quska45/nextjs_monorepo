@@ -1,6 +1,6 @@
-import InstallDependencies from "@/app/guide/nextjs/mdx/install-dependencies.mdx";
-import Config세팅 from "@/app/guide/nextjs/mdx/config세팅.mdx";
-import MdxComponent파일세팅 from "@/app/guide/nextjs/mdx/mdx-component파일생성.mdx";
+import InstallDependencies from "@guide/nextjs/mdx/install-dependencies.mdx";
+import Config세팅 from "@guide/nextjs/mdx/config세팅.mdx";
+import MdxComponent파일세팅 from "@guide/nextjs/mdx/mdx-component파일생성.mdx";
 
 export default function Page() {
   return (

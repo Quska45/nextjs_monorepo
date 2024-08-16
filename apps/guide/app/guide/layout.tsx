@@ -1,4 +1,4 @@
-import "@/app/guide/layout.css";
+import "@guide/layout.css";
 
 export default function Layout({
   children,
