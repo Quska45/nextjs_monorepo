@@ -7,6 +7,7 @@
     "rootDir": ".",
     "jsx": "preserve",
     "paths": {
+      "@guide/*": ["apps/guide/app/guide/*"],
       "@ui/*": ["packages/ui/*"]
     }
   }
