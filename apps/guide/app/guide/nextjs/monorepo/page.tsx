@@ -5,11 +5,9 @@ import Packgejson작성 from "@guide/nextjs/monorepo/packgejson작성.mdx";
 import 모노레포실행 from "@guide/nextjs/monorepo/모노레포실행.mdx";
 
 export default function Page() {
-  // ERROR  run failed: Could not find the following tasks in project: dev
-  //  ELIFECYCLE  Command failed with exit code 1.
   return (
     <>
-      <h2>nextjs 프로젝트를 turborepo를 이용한 monorepo로 전환</h2>
+      <h1>nextjs 프로젝트를 turborepo를 이용한 monorepo로 전환</h1>
       <p>
         처음부터 turborepo를 이용한 monorepo를 구성하는 것은 아주 쉬운 일입니다.
         커맨드 몇번으로 끝나기 때문이죠. 그래서 nextjs로 프로젝트를 구성한
@@ -20,6 +18,8 @@ export default function Page() {
         어떻게 해야하는지 경험 해볼 일이 거의 없죠. 추가로 많은 회사들이 원하는
         경험은 전환에 대한 경험일 것이라 생각했기 때문입니다.
       </p>
+
+      <h2>참고한 글</h2>
       <p>
         본격적인 시작에 앞서 제가
         <a href="https://dev.to/himohitmehta/migrating-a-nextjs-app-to-turbo-repo-mono-repo-24gl">

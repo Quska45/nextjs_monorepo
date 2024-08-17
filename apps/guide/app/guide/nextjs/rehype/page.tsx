@@ -5,6 +5,7 @@ import 스타일추가 from "@guide/nextjs/rehype/스타일추가.mdx";
 export default function Page() {
   return (
     <>
+      <h1>Rehype Pretty Code를 nextjs, mdx쓰는 환경에 적용시키기</h1>
       <h2>Rehype Pretty Code</h2>
       <p>
         <a href="https://github.com/rehype-pretty/rehype-pretty-code">

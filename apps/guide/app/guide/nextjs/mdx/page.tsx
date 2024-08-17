@@ -5,6 +5,7 @@ import MdxComponent파일세팅 from "@guide/nextjs/mdx/mdx-component파일생�
 export default function Page() {
   return (
     <>
+      <h1>nextjs에 markdown을 사용하기 위해 mdx확장자 적용시키기</h1>
       <h2>
         <a href="https://nextjs.org/docs/app/building-your-application/configuring/mdx#add-an-mdx-componentstsx-file">
           Markdown and MDX

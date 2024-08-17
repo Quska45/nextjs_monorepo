@@ -5,6 +5,7 @@ import Tsconfig설정추가 from "@guide/nextjs/storybook/tsconfig설정추가.m
 export default function Page() {
   return (
     <>
+      <h1>스토리북 세팅하기</h1>
       <h2>Storybook 설치</h2>
       <p>
         스토리북 세팅은 매우 간단합니다. 패키지를 설치하는 것 만으로 사실상
