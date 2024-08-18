@@ -8,7 +8,7 @@
     "jsx": "preserve",
     "paths": {
       "@guide/*": ["apps/guide/app/guide/*"],
-      "@ui/*": ["packages/ui/*"]
+      "@packages/ui/*": ["packages/ui/*"]
     }
   }
 }

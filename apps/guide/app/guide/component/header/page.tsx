@@ -1,6 +1,7 @@
 export default function Page() {
   return (
     <>
+      <h1>nextjs 공홈 헤더 클론해서 평생 쓸 헤더 만들기</h1>
       <h2>헤더 만들기 시작</h2>
       <p>
         헤더는 항상 프로젝트에 맞춰 적당히 만들어 사용했었습니다. 나름에
@@ -12,7 +13,7 @@ export default function Page() {
       </p>
 
       <h2>Next 공홈 헤더 분석</h2>
-      <p></p>
+      <blockquote></blockquote>
     </>
   );
 }

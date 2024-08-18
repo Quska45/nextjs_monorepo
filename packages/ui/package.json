@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "@packages/ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18",
+    "react": "^18"
+  }
 }

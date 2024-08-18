@@ -1,8 +1,41 @@
 import InstallDependencies from "@guide/nextjs/mdx/install-dependencies.mdx";
 import Config세팅 from "@guide/nextjs/mdx/config세팅.mdx";
 import MdxComponent파일세팅 from "@guide/nextjs/mdx/mdx-component파일생성.mdx";
+import Blockquote, {
+  BlockquoteData,
+} from "@packages/ui/components/common/blockquote";
 
 export default function Page() {
+  const 알아두면좋은점Data: BlockquoteData[] = [
+    {
+      id: "1",
+      text: "@next/mdx에서 mdx-component.tsx는 반드시 필요하며 없을 경우 작동하지 않습니다.",
+    },
+    {
+      id: "2",
+      text: (
+        <>
+          <a href="https://nextjs.org/docs/app/api-reference/file-conventions/mdx-components">
+            mdx-components.tsx file convention
+          </a>
+          에서 자세한 내용을 확인 할 수 있습니다.
+        </>
+      ),
+    },
+    {
+      id: "3",
+      text: (
+        <>
+          md문법으로 생성되는 tag에 대해서{" "}
+          <a href="https://nextjs.org/docs/app/building-your-application/configuring/mdx#using-custom-styles-and-components">
+            커스텀 스타일
+          </a>
+          도 적용할 수 있습니다.
+        </>
+      ),
+    },
+  ];
+
   return (
     <>
       <h1>nextjs에 markdown을 사용하기 위해 mdx확장자 적용시키기</h1>
@@ -28,30 +61,7 @@ export default function Page() {
       <h2 id="mdx-component-세팅">MDX Component 세팅</h2>
       <p>mdx-component 파일을 생성해서 root 경로에 추가해주세요.</p>
       <MdxComponent파일세팅 />
-      <blockquote>
-        <p>
-          <strong>알아두면 좋은 점</strong>
-        </p>
-        <ul>
-          <li>
-            @next/mdx에서 mdx-component.tsx는 반드시 필요하며 없을 경우 작동하지
-            않습니다.
-          </li>
-          <li>
-            <a href="https://nextjs.org/docs/app/api-reference/file-conventions/mdx-components">
-              mdx-components.tsx file convention
-            </a>
-            에서 자세한 내용을 확인 할 수 있습니다.
-          </li>
-          <li>
-            md문법으로 생성되는 tag에 대해서{" "}
-            <a href="https://nextjs.org/docs/app/building-your-application/configuring/mdx#using-custom-styles-and-components">
-              커스텀 스타일
-            </a>
-            도 적용할 수 있습니다.
-          </li>
-        </ul>
-      </blockquote>
+      <Blockquote data={알아두면좋은점Data} title="알아두면 좋은 점" />
 
       <h2>Remark and Rehype Plugins</h2>
       <p>

@@ -3,8 +3,34 @@ import 터보레포패키지다운 from "@guide/nextjs/monorepo/터보레포패�
 import Turbo제이슨추가 from "@guide/nextjs/monorepo/turbo제이슨추가.mdx";
 import Packgejson작성 from "@guide/nextjs/monorepo/packgejson작성.mdx";
 import 모노레포실행 from "@guide/nextjs/monorepo/모노레포실행.mdx";
+import Blockquote, {
+  BlockquoteData,
+} from "@packages/ui/components/common/blockquote";
 
 export default function Page() {
+  const 폴더구조데이터: BlockquoteData[] = [
+    {
+      id: "1",
+      text: "apps",
+    },
+    {
+      id: "2",
+      text: "website",
+    },
+    {
+      id: "3",
+      text: "app",
+    },
+    {
+      id: "4",
+      text: "package.json",
+    },
+    {
+      id: "5",
+      text: "...",
+    },
+  ];
+
   return (
     <>
       <h1>nextjs 프로젝트를 turborepo를 이용한 monorepo로 전환</h1>
@@ -38,18 +64,7 @@ export default function Page() {
         계시면 좋을 것 같습니다.
       </p>
       <프로젝트파일이동 />
-      <blockquote>
-        <p>
-          <strong>폴더 구조</strong>
-        </p>
-        <ul>
-          <li>apps</li>
-          <li className="m-2">website</li>
-          <li className="m-4">app</li>
-          <li className="m-4">package.json</li>
-          <li className="m-4">...</li>
-        </ul>
-      </blockquote>
+      <Blockquote data={폴더구조데이터} title="폴더 구조"></Blockquote>
 
       <h2>turborepo 설치</h2>
       <p>이제 터보레포 패키지를 설치하겠습니다.</p>

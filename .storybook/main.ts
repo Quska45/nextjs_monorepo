@@ -44,7 +44,7 @@ const config = {
   webpackFinal: async (config) => {
     // Add path aliases
     if (config && config.resolve && config.resolve.alias) {
-      config.resolve.alias["@ui"] = path.resolve(
+      config.resolve.alias["@packages/ui"] = path.resolve(
         __dirname,
         "../packages/ui/components"
       );
