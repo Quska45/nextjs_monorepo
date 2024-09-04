@@ -35,7 +35,7 @@ export interface BlockquoteData {
  */
 export interface BlockquoteProps {
   data: BlockquoteData[];
-  title: string;
+  title?: string;
 }
 
 /**
@@ -52,7 +52,7 @@ export interface BlockquoteProps {
 export default function Blockquote({ data, title }: BlockquoteProps) {
   return (
     <blockquote>
-      <p>{title}</p>
+      {title && <p>{title}</p>}
       <ul>
         {data.map(({ id, text, depth }) => (
           <li className={blockquoteDepth[depth || "1"]} key={id}>

@@ -1,6 +1,6 @@
 /* 특정 선택자를 사용하지 않고 태그에 대한 공통 css를 작성합니다. */
 article {
-  @apply mt-4 w-full min-w-0 max-w-6xl px-1 md:px-6;
+  @apply mt-4 w-full min-w-0 max-w-6xl px-1 md:px-6 ml-auto mr-auto;
 }
 
 h1 {
